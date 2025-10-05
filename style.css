@@ -68,8 +68,8 @@ body{
 }
 
 .header-image{
-    background-color: #8d8282;
-    padding: 128px 256px;
+    width: 750px;
+    height: 520px;
 }
 
 .button{
