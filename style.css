@@ -13,6 +13,11 @@ body{
 
 }
 
+.text{
+    color: #E5E7Eb;
+    font-size: 18px;
+}
+
 
 /* the header itself */
 .topbar{
@@ -35,8 +40,7 @@ body{
 
 .links a{
     text-decoration: none;
-    color: #E5E7Eb;
-    font-size: 18px;
+
 }
 
 .links{
@@ -55,10 +59,10 @@ body{
     width: 500px;
 }
 
-.signup-info p{
+/* .signup-info p{
     font-size: 18px;
     color: #E5E7Eb;
-}
+} */
 
 .signup h1{
     font-size: 48px;
@@ -80,3 +84,11 @@ body{
     border-radius: 12px;
     border: 0 none;
 }   
+
+/* info section */
+.info-body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
