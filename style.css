@@ -165,3 +165,11 @@ body{
 .call-to-action-section .logo{
     font-weight: 900;
 }
+
+/* footer */
+
+.footer{
+    padding: 50px;
+    text-align: center;
+    background-color: #1F2937;
+}
