@@ -87,7 +87,7 @@ body{
     align-items: center;
     flex-direction: column;
     margin-top: 50px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 .illustrations{
@@ -114,4 +114,33 @@ body{
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+}
+
+/* quote section */
+
+.quote-section{
+    background-color: #E5E7Eb;
+    padding: 130px;
+    display:flex;
+    justify-content: center;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+#quote-text{
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    font-style: italic;
+}
+
+#quoter{
+    align-self:flex-end;
+    font-size: 24px;
+    font-weight: 900;
+
 }
