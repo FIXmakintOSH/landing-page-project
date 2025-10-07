@@ -144,3 +144,24 @@ body{
     font-weight: 900;
 
 }
+
+/* call to action section */
+
+.call-to-action-section{
+    display:flex;
+    justify-content: space-between;    
+    align-items: center;
+    padding:50px 140px;
+    margin:150px 300px;
+    background-color: #3882F6;
+    border-radius: 12px;
+}
+
+.call-to-action-section .button{
+    border:#f9faf8 2px solid;
+    border-radius: 10px;
+}
+
+.call-to-action-section .logo{
+    font-weight: 900;
+}
