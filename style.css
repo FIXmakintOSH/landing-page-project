@@ -86,12 +86,32 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 80px;
 }
 
 .illustrations{
     display:flex;
+    justify-content: space-evenly;
+    gap: 60px;  
+    margin-top: 30px;
 }
 
-.info-image{
-    
+.info-element{
+    width: 150px;
+    color: #756f6f;
+    font-size: 18px;
+    text-align: center;
+}
+
+.info-element img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 5px;
+}
+
+#info-header{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
 }
